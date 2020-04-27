@@ -1,3 +1,5 @@
+package solution;
+
 public class DeleteArray {
     public int deleteArrayEvery2Step(int length) {
         //参数为数组长度

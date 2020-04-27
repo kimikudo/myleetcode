@@ -1,3 +1,5 @@
+package solution;
+
 public class CanJump {
     public boolean canJump(int[] nums) {
         int rightmost=0;

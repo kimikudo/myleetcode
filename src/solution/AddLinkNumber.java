@@ -1,3 +1,7 @@
+package solution;
+
+import defined.ListNode;
+
 public class AddLinkNumber {
     /**
      * 给出两个 非空 的链表用来表示两个非负的整数。其中，它们各自的位数是按照 逆序 的方式存储的，并且它们的每个节点只能存储 一位 数字。
@@ -12,12 +16,13 @@ public class AddLinkNumber {
         int index = 0;
         while (l1 != null && l2 != null) {
             res = l1.val + l2.val;
-            /*if (root != null) {
+if (root != null) {
                 root.next = new ListNode(res % 10 + carry);
             } else {
                 root = new ListNode(res % 10 + carry);
                 result = root;
-            }*/
+            }
+
             root.next = new ListNode((res + carry) % 10);
             if (index == 0) {
                 result = root;

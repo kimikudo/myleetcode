@@ -1,3 +1,7 @@
+package solution;
+
+import defined.TreeNode;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -12,7 +16,7 @@ public class RightSideView {
         return rightSide;
     }
 
-    public void dfs(TreeNode node,int depth){
+    public void dfs(TreeNode node, int depth){
         if(node==null){
             return;
         }
