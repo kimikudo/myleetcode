@@ -1,0 +1,14 @@
+target/*
+MyGenerator.java
+.idea/*
+*.iml
+*.log
+/mvnw.cmd
+/mvnw
+/.mvn/wrapper/MavenWrapperDownloader.java
+/.mvn/wrapper/maven-wrapper.properties
+/.mvn/wrapper/maven-wrapper.jar
+/HELP.md
+*.ipr
+*.iws
+src/test/*
